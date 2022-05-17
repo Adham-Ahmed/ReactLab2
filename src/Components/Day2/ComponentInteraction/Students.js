@@ -9,12 +9,12 @@ let Students = ({studentsList})=>{
     //     }
 
     let renderStudnets = ()=>{
-        if(studentsList.students.length > 0){
-            return studentsList.students.map((student)=>{
+        if(studentsList.length > 0){
+            return studentsList.map((student)=>{
                 return (
                     <div className="studentItem">
                     <h4>{student.name}</h4>
-                    <h4>{student.email}</h4>
+                    <h4>{student.age}</h4>
                 </div>
             )
         })
@@ -24,7 +24,7 @@ let Students = ({studentsList})=>{
 }
     return (
         <div className="search-Comp">
-            <h3 className="header">Filterd Students</h3>
+            <h3 className="header">Filtered Students</h3>
             {renderStudnets()}
         </div>
     )
