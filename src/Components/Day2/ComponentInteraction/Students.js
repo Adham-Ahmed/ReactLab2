@@ -1,13 +1,20 @@
 let Students = ({studentsList})=>{
-    console.log(studentsList);
+    // console.log(studentsList);
     
+    // const Students = () => {
+    //     const [studentsList, setStudentsList] = useState(StudentsService.getStudents());
+    //     const handleAddStudent = student => {
+    //       student.id = Math.ceil(Math.random() * 99999);
+    //       setStudentsList(previous => previous.concat([student]))
+    //     }
+
     let renderStudnets = ()=>{
         if(studentsList.length > 0){
             return studentsList.map((student)=>{
                 return (
                     <div className="studentItem">
-                    <h3>{student.name}</h3>
-                    <h3>{student.email}</h3>
+                    <h4>{student.name}</h4>
+                    <h4>{student.age}</h4>
                 </div>
             )
         })
@@ -17,7 +24,7 @@ let Students = ({studentsList})=>{
 }
     return (
         <div className="search-Comp">
-            <h2 className="header">Filterd Students</h2>
+            <h3 className="header">Filtered Students</h3>
             {renderStudnets()}
         </div>
     )
