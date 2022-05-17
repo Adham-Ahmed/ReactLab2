@@ -1,5 +1,5 @@
 let Students = ({studentsList})=>{
-    console.log(studentsList);
+    // console.log(studentsList);
     
     // const Students = () => {
     //     const [studentsList, setStudentsList] = useState(StudentsService.getStudents());
