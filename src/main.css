@@ -1,0 +1,73 @@
+/* h3{
+    background-color:aqua ;
+}
+
+.sara{
+    background-color: darkgrey;
+    color: white;
+}
+
+img{
+    width: 40%;
+} */
+
+.search-Comp{
+    border: 1px solid black;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.search-Comp input{
+    margin: auto;
+    text-align: center;
+    border-radius: 20px;
+    outline: none;
+    border: 1px solid gray;
+}
+
+.header{
+    text-align: center;
+    background-color: darkgray;
+    width: 90%;
+    margin: 15px auto;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px 3px darkgray;
+}
+
+.studentItem{
+    background-color: aqua;
+    text-align: center;
+    margin: 5px;
+}
+
+.active{
+    color: rgb(0, 74, 0);
+}
+
+
+#menu-outer {
+	height: 84px;
+	/* background: url(images/bar-bg.jpg) repeat-x; */
+}
+
+.table {
+	display: table;   /* Allow the centering to work */
+	margin: 0 auto;
+}
+
+ul#horizontal-list {
+	min-width: 696px;
+	list-style: none;
+	padding-top: 20px;
+}
+ul#horizontal-list li {
+    display: inline;
+    margin:10px;
+    text-decoration: none;
+	}
+
+    /* NavLink{
+    text-decoration: none;
+
+    } */
